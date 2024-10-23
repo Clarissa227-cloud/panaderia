@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Punto de Venta - Panadería Omaris</title>
     <link rel="stylesheet" href="styles/estilo.css">
+    <title>Inventario</title>
 </head>
 <body>
-        <div class="logo">
+<div class="logo">
             <img src="img/user_icon.png" alt="Logo Panadería Omaris">
         </div>
         <div class="user">
@@ -18,10 +18,10 @@
        
         <nav>
             <ul>
-                <li><a href="#">Inicio</a></li>
+                <li><a href="index.php">Inicio</a></li>
                 <li><a href="#">Ventas</a></li>
                 <li><a href="#">Pedidos</a></li>
-                <li><a href="inventario.php">Almacén</a></li>
+                <li><a href="#">Almacén</a></li>
                 <li><a href="#">Configuración</a></li>
             </ul>
         </nav>
@@ -37,23 +37,18 @@
         <table>
             <thead>
                 <tr>
-                    <th>Código</th>
+                    <th>Imagen</th>
                     <th>Producto</th>
-                    <th>Cantidad</th>
+                    <th>Stock</th>
                     <th>Precio</th>
-                    <th>Subtotal</th>
+                    <th>Estatus</th>
+                    <th>Acciones</th>
                 </tr>
             </thead>
             <tbody>
                
             </tbody>
         </table>
-
-        <div class="total">
-            <button>Pagar</button>
-            <span>Total $</span>
-        </div>
     </main>
-
 </body>
 </html>
